@@ -18,6 +18,10 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        medical: "bg-gradient-danger text-white hover:shadow-danger transition-all duration-300 transform hover:scale-105",
+        death: "bg-gradient-death text-white hover:shadow-ominous transition-all duration-500 animate-pulse-danger",
+        heaven: "bg-gradient-heaven text-medical-death hover:shadow-lg transition-all duration-300",
+        hell: "bg-gradient-hell text-white hover:shadow-danger transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
